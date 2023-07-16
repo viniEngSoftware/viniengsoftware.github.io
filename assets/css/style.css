@@ -15,7 +15,7 @@ body{
 }
 
 .layout {
-    margin: 0 6%;
+    margin: 0 3%;
 }
 
 .logo-img{
@@ -26,7 +26,7 @@ body{
 
 header{
     position: fixed;
-    width: 88%;
+    width: 94%;
 }
 
 nav{
@@ -57,7 +57,7 @@ a:hover {
     color: white;
 }
 .comeco {
-    height: 640px;
+    height: 44em;
     background-image: url(/assets/imagens/foto-cabecalho.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
