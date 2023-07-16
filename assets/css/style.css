@@ -155,12 +155,14 @@ a:hover {
     background-color: #03001C;
     border: 1px solid #5B8FB9;
     border-radius: 10px;
+    transition: transform 0.4s ease-in-out;
     transform: scale(1);
     z-index: 0;
 }
 
 .icone-habilidade-icone:hover {
     transform: scale(1.3); /* Aumenta o tamanho da imagem no hover */
+    border-color: white;
     z-index: 1;
 }
   
