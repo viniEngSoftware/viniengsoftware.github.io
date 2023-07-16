@@ -68,7 +68,7 @@ a:hover {
     padding: 15% 0 0 27%;
     font-size: 60px;
     color: white;
-    display: inline-block;
+  
 }
 
 .container{
@@ -77,20 +77,34 @@ a:hover {
     justify-content: space-between;
 }
 
-.imagem-vini {
-    width: 800px;
-    height: 500px;
-  }
+.imagem-vini{
+    padding-left: 200px;
+    padding-top: 50px;
+}    
 
-  .imagem-vini img{
-    background-blend-mode: luminosity;
-  }
+.imagem-vini img {
+    cursor: pointer;
+    transition: 0.2s;
+    max-width: 100%;
+    transform: scale(1); /* Define o tamanho inicial da imagem */
+}
+  
+.imagem-vini img:hover {
+    transform: scale(1.2); /* Aumenta o tamanho da imagem no hover */
+}
+  
+.imagem-vini img:focus {
+    outline: none; /* Remove a borda ao focar na imagem */
+}
+  
+.imagem-vini img:active {
+    transform: scale(0.9); /* Diminui o tamanho da imagem quando clicada */
+}
 
 .sobre-mim{
     color: var(--cor-primaria);
     text-align: justify;
-    width: 50%;
-    
+    width: 50%;   
 }
 
 .sobre-mim h2{
