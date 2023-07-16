@@ -74,11 +74,14 @@ a:hover {
 .container{
     display: flex;
     padding: 50px 0;
+    justify-content: space-between;
 }
 
 .sobre-mim{
     color: var(--cor-primaria);
     text-align: justify;
+    width: 50%;
+    
 }
 
 .sobre-mim h2{
