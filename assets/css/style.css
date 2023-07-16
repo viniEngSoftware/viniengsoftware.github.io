@@ -96,10 +96,6 @@ a:hover {
 .imagem-vini img:focus {
     outline: none; /* Remove a borda ao focar na imagem */
 }
-  
-.imagem-vini img:active {
-    transform: scale(0.9); /* Diminui o tamanho da imagem quando clicada */
-}
 
 .sobre-mim{
     color: var(--cor-primaria);
@@ -121,12 +117,88 @@ a:hover {
     margin-bottom: 15px;
     text-align: center;
     height: 40em;
-    border: 2px solid white
+    border: 1px solid var(--cor-primaria);
+    border-radius: 10px;
+}
+
+.habilidade-h2{
+    margin-top: 4%;
+    display: block;
+}
+
+.container-habilidade{
+    margin-top: 8%;
+    display: flex;
+}
+
+.descricao-habilidade{
+    padding-left: 5%;
+}
+
+.icone-habilidade{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40%;
+}
+
+.icone-habilidade-icone{
+    margin: 0 3% 3% 0;
+    flex: 0 0 calc(30% - 10px); /* 33.33% para cada item, com espaço para margens */
+    padding: 10px;
+    border: 1px solid #5B8FB9;
+    transform: scale(1);
+}
+
+.contato-h2{
+    display: block; 
+}
+
+.contato-container{
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.icone-contato{
+    margin-left: 5%;
+}
+
+.container-caixa-contato{
+    color: var(--cor-primaria);
+    padding-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    height: 15em;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 10px;
+}
+
+.nome-contato{
+    font-family: "Arial, Helvetica, sans-serif";
+    font-size: 15px;
+    margin-top: 5px;
+    color: #5B8FB9;
+}
+
+.imagem-contato{
+    cursor: pointer;
+    transition: 0.2s;
+    max-width: 100%;
+    transform: scale(1); /* Define o tamanho inicial da imagem */
+}
+
+.imagem-contato img:hover {
+    transform: scale(1.3); /* Aumenta o tamanho da imagem no hover */
+}
+  
+.imagem-contato img:focus {
+    outline: none; /* Remove a borda ao focar na imagem */
 }
 
 .rodape{
-    height: 30px;
+    height: 5rem;
     justify-content: center;
+    align-items: center;
     display: flex;
     color: var(--cor-primaria);
 }
