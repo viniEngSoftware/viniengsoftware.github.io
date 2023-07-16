@@ -19,8 +19,8 @@ body{
 }
 
 header{
-    position: fixed;
-    width: 100%;
+    position: absolute;
+   
 }
 
 .logo-img{
@@ -30,6 +30,8 @@ header{
 }
 
 nav{
+    position: fixed;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -122,8 +124,6 @@ a:hover {
     height: 40em;
     border: 1px solid var(--cor-primaria);
     border-radius: 10px;
-    position: relative; /* Adicione essa propriedade */
-    z-index: -1;
 }
 
 .habilidade-h2{
