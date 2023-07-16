@@ -77,6 +77,15 @@ a:hover {
     justify-content: space-between;
 }
 
+.imagem-vini {
+    width: 800px;
+    height: 500px;
+  }
+
+  .imagem-vini img{
+    background-blend-mode: luminosity;
+  }
+
 .sobre-mim{
     color: var(--cor-primaria);
     text-align: justify;
@@ -87,6 +96,11 @@ a:hover {
 .sobre-mim h2{
     text-align: center;
 }
+
+.sobre-mim p{
+    margin-right: 10px;
+}
+
 .container-caixa{
     color: var(--cor-primaria);
     padding-top: 15px;
