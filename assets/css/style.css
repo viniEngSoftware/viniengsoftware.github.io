@@ -150,19 +150,18 @@ a:hover {
 .icone-habilidade-icone{
     margin: 0 3% 3% 0;
     flex: 0 0 calc(30% - 10px); /* 33.33% para cada item, com espaço para margens */
+    cursor: pointer;
     padding: 10px;
     background-color: #03001C;
     border: 1px solid #5B8FB9;
     border-radius: 10px;
     transform: scale(1);
-}
-
-.icone-habilidade-icone img{
-    z-index: 1;
+    z-index: 0;
 }
 
 .icone-habilidade-icone:hover {
     transform: scale(1.3); /* Aumenta o tamanho da imagem no hover */
+    z-index: 1;
 }
   
 .icone-habilidade-icone:focus {
