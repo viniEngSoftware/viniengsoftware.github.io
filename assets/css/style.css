@@ -39,6 +39,31 @@ nav{
     z-index: 9999;
 }
 
+nav li {
+    position: relative;
+    display: inline-block;
+    color: var(--cor-primaria);
+    text-decoration: none;
+  }
+  
+  nav li::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: -7px;
+    left: 0;
+    background: linear-gradient(270deg, white 0%, rgba(48, 30, 103, 0.5) 100%);
+    transform-origin: bottom right;
+    transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  
+  nav li:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  
 ul{
     margin-right: 2.5%;
     display: flex;
@@ -71,7 +96,7 @@ a:hover {
 
 #mensagem {
     padding: 15% 0 0 27%;
-    font-size: 60px;
+    font-size: 3.5rem;
     color: white;
   
 }
