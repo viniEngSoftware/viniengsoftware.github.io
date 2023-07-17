@@ -249,3 +249,66 @@ a:hover {
     color: var(--cor-primaria);
 }
 
+@media screen and (max-width: 600px) {
+    #mensagem {
+        font-size: 25px;
+    }
+
+    .container {
+        display: block;
+        align-items: center;
+        padding: 0;
+    }
+
+    .imagem-vini {
+        width: 100%;
+        padding: 0;
+        margin-left: 70px;
+        margin-bottom: 25px;
+    }
+
+    .sobre-mim {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .sobre-mim p {
+        margin: 0 5%;
+    }
+
+    .container-habilidade {
+        display: block;
+    }
+
+    .descricao-habilidade {
+        width: 95%;
+        margin: 5% 10% 0 0;
+        height: 200px;
+    }
+
+    .icone-habilidade {
+        padding: 10% 0 0 10%;
+    }
+
+    .container-caixa-contato {
+        height: 10em;
+    }
+
+    .imagem-contato img {
+        width: 30px;
+    }
+
+    .nome-contato {
+        font-size: 10px;
+    }
+
+    .rodape {
+        padding-top: 1%;
+        display: block;
+        text-align: center;
+    }
+
+    .rodape p {
+        margin: 10px 0 0 0;
+    }
+}
