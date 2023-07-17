@@ -87,34 +87,35 @@
 
         <section id="habilidade">
             <div class="container-caixa">
-                <h2 class="habilidade-h2">Habilidades</h2>
-                <div class="container-habilidade">
-                    <div class="descricao-habilidade">
-                        <p>ola mundo </p>
-                    </div>    
-                    <div class="icone-habilidade">
-                        <article class="icone-habilidade-icone">
-                            <img src="/assets/icones/csharp.png">
-                        </article>
-                        <article class="icone-habilidade-icone">
-                            <img src="/assets/icones/javascript.png">
-                        </article>
-                        <article class="icone-habilidade-icone">
-                            <img src="/assets/icones/react.png">
-                        </article>
-                        <article class="icone-habilidade-icone">
-                            <img src="/assets/icones/html5.png">
-                        </article>
-                        <article class="icone-habilidade-icone">
-                            <img src="/assets/icones/css3.png">
-                        </article>
-                        <article class="icone-habilidade-icone">
-                            <img src="/assets/icones/icons8-sql-96.png">
-                        </article>
-                    </div>  
+              <h2 class="habilidade-h2">Habilidades</h2>
+              <div class="container-habilidade">
+                <div class="descricao-habilidade">
+                  <h2 id="cabecalho-habilitado"></h2>
+                  <p id="mensagem-habilidade"></p>
                 </div>
+                <div class="icone-habilidade">
+                  <article class="icone-habilidade-icone" onmouseover="mostrarMensagem('C# é uma linguagem de programação moderna, orientada a objetos e desenvolvida pela Microsoft. Ela é amplamente utilizada para criar aplicativos Windows, aplicativos web, jogos e soluções empresariais, fornecendo recursos avançados e uma sintaxe simples e legível.', 'C#')">
+                    <img src="/assets/icones/csharp.png">
+                  </article>
+                  <article class="icone-habilidade-icone" onmouseover="mostrarMensagem('JavaScript é uma linguagem de programação de alto nível, interpretada pelos navegadores, que adiciona interatividade e dinamismo às páginas da web. É amplamente utilizado para desenvolver funcionalidades como validação de formulários, manipulação de elementos HTML e criação de aplicativos web completos.', 'JavaScript')">
+                    <img src="/assets/icones/javascript.png">
+                  </article>
+                  <article class="icone-habilidade-icone" onmouseover="mostrarMensagem('React é uma biblioteca JavaScript de código aberto utilizada para construir interfaces de usuário (UI) interativas e reativas. É amplamente adotada para desenvolver aplicativos web modernos, permitindo a criação de componentes reutilizáveis e o gerenciamento eficiente do estado da aplicação.', 'React')">
+                    <img src="/assets/icones/react.png">
+                  </article>
+                  <article class="icone-habilidade-icone" onmouseover="mostrarMensagem('HTML (HyperText Markup Language) é a linguagem de marcação usada para estruturar e organizar o conteúdo de uma página da web, permitindo a criação de elementos como títulos, parágrafos, imagens e links. É a base fundamental para construir páginas da web e tornar o conteúdo acessível e interativo na internet.', 'HTML')">
+                    <img src="/assets/icones/html5.png">
+                  </article>
+                  <article class="icone-habilidade-icone" onmouseover="mostrarMensagem('CSS é uma linguagem de estilo usada para estilizar a aparência de elementos HTML em páginas da web. Ele permite controlar cores, fontes, layouts e outros aspectos visuais, melhorando a apresentação e o design dos sites.', 'CSS')">
+                    <img src="/assets/icones/css3.png">
+                  </article>
+                  <article class="icone-habilidade-icone" onmouseover="mostrarMensagem('SQL (Structured Query Language) é uma linguagem de programação usada para gerenciar bancos de dados relacionais. Ela permite a criação, manipulação e consulta de dados, proporcionando uma maneira eficiente de armazenar e recuperar informações em sistemas de banco de dados.', 'SQL')">
+                    <img src="/assets/icones/icons8-sql-96.png">
+                  </article>
+                </div>
+              </div>
             </div>
-        </section>
+          </section>
 
         <section id="contato">
             <div class="container-caixa-contato">
@@ -149,6 +150,7 @@
             <p>Powered by Vinicius Silva Costa</p>
         </footer>
     <script src="assets/js/script.js"></script>
+    <script src="/assets/js/escreve-habilidades.js"></script>
 </body>
 
 </html>
