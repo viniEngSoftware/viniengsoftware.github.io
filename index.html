@@ -20,22 +20,25 @@
     
         <div id="inicio">
             <header>           
-                    <nav>
+                    <nav id="navega">
                         <a href=""><img class="logo-img" src="assets/imagens/logo-com-nome.png" alt="logo do portfólio"></a>
-                        <ul>
-                            <li><a href="#inicio">Inicio</a></li>
-                            <li><a href="#sobre">Sobre</a></li>
-                            <li><a href="#projetos">Projetos</a></li>
-                            <li><a href="#habilidade">Habilidades</a></li>
-                            <li><a href="#contato">Contato</a></li>
+                        <ul id="menu-navegacao">
+                          <li><a href="#inicio" onclick="navegarPara('#inicio')">Inicio</a></li>
+                          <li><a href="#sobre" onclick="navegarPara('#sobre')">Sobre</a></li>
+                          <li><a href="#projetos" onclick="navegarPara('#projetos')">Projetos</a></li>
+                          <li><a href="#habilidade" onclick="navegarPara('#habilidade')">Habilidades</a></li>
+                          <li><a href="#contato" onclick="navegarPara('#contato')">Contato</a></li>
                         </ul>
-                    </nav>    
+                        <img id="menu-imagem-mobline" src="/assets/icones/icons8-menu-arredondado-50.png" width="40px" onclick="menuE()"> 
+                        <img id="menu-sair" src="/assets/icones/mobile-sair.png" width="35px" onclick="sairMenu()">
+                    </nav>  
+                      
             </header>
+        </div>    
     <div class="layout">
             <Section class="comeco" > 
                 <h1 id="mensagem"></h1>           
             </Section>
-
         <section id="sobre">
             <div class="container">
                 <div class="imagem-vini">
@@ -144,13 +147,14 @@
                 </div>
             </div>
         </section>
-    </div>
+         </div>
         <footer class="rodape">
             <p>Copyright © 2023 Todos os direitos reservados.</p>
             <p>Powered by Vinicius Silva Costa</p>
         </footer>
     <script src="assets/js/script.js"></script>
     <script src="/assets/js/escreve-habilidades.js"></script>
+    <script src="/assets/js/menu-mobile.js"></script>
 </body>
 
 </html>

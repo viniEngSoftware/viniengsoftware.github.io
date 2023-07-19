@@ -84,6 +84,17 @@ a{
 a:hover {
     color: white;
 }
+
+#menu-imagem-mobline{
+    visibility: hidden;
+    display: none;
+}
+
+#menu-sair{
+    visibility: hidden;
+    display: none;
+}
+
 .comeco {
     height: 44em;
     background-image: url(/assets/imagens/foto-cabecalho.jpg);
@@ -250,6 +261,49 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+    .logo-img{
+        position: absolute;
+        margin: -6% 0 0 2.5%;
+        /*margin: -70% 0 0 3%;*/
+        
+    }
+
+    header{
+        flex-direction: column;
+    
+    }
+    nav{
+        height: 8%;
+    }
+
+    ul{
+        display: none;
+        margin: 0 33% 5% 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu-sair{
+        display: inline-block;
+        position: absolute;
+        cursor: pointer;
+        /*margin: -131.9% 0 0 88.5%;*/
+    }
+
+    #menu-imagem-mobline{
+        visibility: visible;
+        display: inline-block;
+        position: absolute;
+        cursor: pointer;
+        margin: 0 0 1% 88%;
+        /*margin: -132% 0 0 88%;*/
+    }
+
+    .layout .comeco{
+        height: 25em;
+        margin-bottom: 2em;
+    }
+
     #mensagem {
         font-size: 25px;
     }
@@ -261,9 +315,9 @@ a:hover {
     }
 
     .imagem-vini {
-        width: 100%;
+        width: 50%;
         padding: 0;
-        margin-left: 70px;
+        margin-left: 8em;
         margin-bottom: 25px;
     }
 
