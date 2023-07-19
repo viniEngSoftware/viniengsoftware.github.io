@@ -4,10 +4,6 @@ const navegacao = document.getElementById("menu-navegacao");
 const navega = document.getElementById("navega");
 const logo = document.querySelector(".logo-img");
 
-    function navegarPara(destino) {
-        sairMenu();
-    }
-
 function menuE(){
     navegacao.style.display = "flex";
     navega.style.height= "100%"
