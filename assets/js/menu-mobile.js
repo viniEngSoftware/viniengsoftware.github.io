@@ -7,6 +7,10 @@ const logo = document.querySelector(".logo-img");
 function menuE() {
 
     menu.style.visibility = "hidden";
+    navegacao.style.display = "flex";
+    navega.style.height = "100%";
+    logo.style.margin = "-351px 0 0 12px";
+    menuSair.style.margin = "0 0 649px 429px";
 
     if (menu.style.visibility === "hidden") {
         menuSair.style.visibility = "visible";
@@ -14,15 +18,14 @@ function menuE() {
         menu.style.visibility = "hidden";
     }
 
-    navegacao.style.display = "flex";
-    navega.style.height = "100%";
-    logo.style.margin = "-71.8% 0 0 2.5%";
-    menuSair.style.margin = "-131.9% 0 0 88.5%";
+    
 }
 
 function sairMenu() {
 
     menuSair.style.visibility = "hidden";
+    logo.style.margin = "-29px 0 0 12px";
+    navega.style.height = "56px";
 
     if (menuSair.style.visibility === "hidden") {
         menu.style.visibility = "visible";
@@ -31,7 +34,7 @@ function sairMenu() {
         menuSair.style.visibility = "hidden";
     }
 
-    navega.style.height = "8%";
-    logo.style.margin = "-6% 0 0 2.5%";
+    
+    
 }
 

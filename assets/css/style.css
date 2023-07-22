@@ -262,6 +262,7 @@ a:hover {
 
 @media screen and (max-width: 600px) {
     .logo-img{
+        display: inline-block;
         position: absolute;
         margin: -6% 0 0 2.5%;
         /*margin: -70% 0 0 3%;*/
@@ -273,7 +274,7 @@ a:hover {
     
     }
     nav{
-        height: 8%;
+        height: 56px;
     }
 
     ul{
