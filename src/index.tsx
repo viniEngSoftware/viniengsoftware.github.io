@@ -3,11 +3,12 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import GlobalStyle from './styles/GlobalStyle';
 
+// O nome do repositório deve ser incluído no basename
 const root = createRoot(document.getElementById('root')!);
 
 root.render(
-    <BrowserRouter>
+    <BrowserRouter basename="/viniengsoftware.github.io">
         <GlobalStyle />
-            <App/>
+        <App />
     </BrowserRouter>
 );
