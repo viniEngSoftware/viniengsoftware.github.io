@@ -3,7 +3,7 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import GlobalStyle from './styles/GlobalStyle';
 
-// O nome do repositório deve ser incluído no basename
+// O nome do repositório sem espaços extras
 const root = createRoot(document.getElementById('root')!);
 
 root.render(
