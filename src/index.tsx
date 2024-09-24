@@ -1,14 +1,21 @@
-import { createRoot } from 'react-dom/client';
-import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import GlobalStyle from './styles/GlobalStyle';
+import ReactDOM from 'react-dom/client';  // Corrigir a importação para React 18
+import App from './App';
+import React from 'react';
 
-// O nome do repositório sem espaços extras
-const root = createRoot(document.getElementById('root')!);
-
-root.render(
-    <BrowserRouter basename="/viniengsoftware.github.io">
-        <GlobalStyle />
-        <App />
+const rootElement = document.getElementById('root');
+if (rootElement) {
+  const root = ReactDOM.createRoot(rootElement);  // Usar createRoot no React 18
+  
+  root.render(
+    <React.StrictMode>
+      <BrowserRouter basename="/viniengsoftware.github.io">
+      <GlobalStyle />
+      <App />
     </BrowserRouter>
-);
+    </React.StrictMode>
+    
+  );
+}
+
