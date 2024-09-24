@@ -10,7 +10,7 @@ if (rootElement) {
   
   root.render(
     <React.StrictMode>
-      <BrowserRouter basename="/viniengsoftware.github.io">
+      <BrowserRouter>
       <GlobalStyle />
       <App />
     </BrowserRouter>
