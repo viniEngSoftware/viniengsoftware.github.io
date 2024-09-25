@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",                     // Ou outra versão como "es6"
+    "lib": ["dom", "dom.iterable", "esnext"], // Inclua "dom" para suporte a JSX
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx"                   // Adicione essa linha
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
