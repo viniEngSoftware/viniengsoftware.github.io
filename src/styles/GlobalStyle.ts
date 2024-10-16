@@ -10,7 +10,8 @@ const useGlobalStyles = createUseStyles({
       fontFamily: 'Roboto, sans-serif',
     },
     'html, body': {
-      height: '100%',
+      height: 'auto',
+      width: 'auto',
     }
   }
 });

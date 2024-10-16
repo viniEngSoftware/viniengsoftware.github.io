@@ -3,8 +3,6 @@ import GlobalStyle from './styles/GlobalStyle';
 import ReactDOM from 'react-dom/client';  // Corrigir a importação para React 18
 import App from './App';
 import React from 'react';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
 const rootElement = document.getElementById('root');
 if (rootElement) {
