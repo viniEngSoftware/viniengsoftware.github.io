@@ -4,12 +4,12 @@ import 'typeface-roboto';
 const useGlobalStyles = createUseStyles({
   '@global': {
     '*': {
-      margin: 0,
-      padding: 0,
       boxSizing: 'border-box',
       fontFamily: 'Roboto, sans-serif',
     },
     'html, body': {
+      margin: 0,
+      padding: 0,
       height: 'auto',
       width: 'auto',
     }
