@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/02/26 11:07:06.000.882,=C:\Users\vboxuser\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/02/27 10:46:55.856,=C:\Users\vboxuser\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/02/27 10:50:12.856,C:\Users\vboxuser\Desktop\CADATRO_DE_CLIENTE\UCadastro.dfm=C:\Users\vboxuser\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2025/02/27 10:50:12.856,C:\Users\vboxuser\Desktop\CADATRO_DE_CLIENTE\UCadastro.pas=C:\Users\vboxuser\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/02/27 11:20:27.513,=C:\Users\vboxuser\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/02/27 11:21:45.388,C:\Users\vboxuser\Desktop\CADATRO_DE_CLIENTE\UDadosConexao.pas=C:\Users\vboxuser\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/02/27 11:21:45.388,C:\Users\vboxuser\Desktop\CADATRO_DE_CLIENTE\UDadosConexao.dfm=C:\Users\vboxuser\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2025/02/27 16:39:42.743,C:\Users\vboxuser\Desktop\CADATRO_DE_CLIENTE\Sistema_de_Cadastro.dproj=C:\Users\vboxuser\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

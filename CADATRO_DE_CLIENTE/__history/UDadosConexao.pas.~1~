@@ -1,0 +1,25 @@
+unit UDadosConexao;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TumDados = class(TDataModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  umDados: TumDados;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

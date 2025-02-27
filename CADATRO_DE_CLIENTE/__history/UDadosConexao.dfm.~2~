@@ -1,0 +1,9 @@
+object umDados: TumDados
+  Height = 750
+  Width = 1000
+  PixelsPerInch = 120
+  object Conexao: TFDConnection
+    Left = 32
+    Top = 24
+  end
+end

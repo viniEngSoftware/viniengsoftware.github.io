@@ -1,0 +1,11 @@
+object umDados: TumDados
+  Height = 750
+  Width = 1000
+  PixelsPerInch = 120
+  object Conexao: TFDConnection
+    Params.Strings = (
+      'DriverID=PG')
+    Left = 32
+    Top = 24
+  end
+end
