@@ -1,0 +1,13 @@
+--------------------------------Analista de Qualidade/Documentação--------------------------------
+● Testes funcionais relacionados a novas regras ou alterações no sistema.
+● Avaliação de utilização e interface com usuário (UX).
+● Avaliação técnica relacionado a segurança funcional do sistema.
+● Aprovar o produto final antes do lançamento.
+● Documentação de release de alterações da versão.
+
+● Documentação do sistema no wiki. 
+● Criação de base de conhecimento.
+● Criação de Video Aulas.
+● Elaboração de treinamento e formação técnica das equipes. 
+● Treinamento das equipes de atendimento em relação a funcionalidades dos sistemas.
+● Atualização de plataformas de integração no site.
